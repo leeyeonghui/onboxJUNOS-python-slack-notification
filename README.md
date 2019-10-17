@@ -1,7 +1,10 @@
 # onboxJUNOS-python-slack-notification
+
+script directory:  /var/db/scripts/op
+
+#Junos commands to be configured 
 set system scripts language python
 set system scripts op allow-url-for-python
-# /var/db/scripts/op
 set system scripts op file commit_slack.py
 set system services netconf ssh
 
