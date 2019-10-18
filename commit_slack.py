@@ -2,10 +2,13 @@ import urllib2
 from jnpr.junos import Device
 import json
 
-# Config
+# Slack webhook URL
 slack_url = "https://hooks.slack.com/services/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"
+# Slack channel
 slack_channel = "#junos_commit"
+# local device IP 
 device_ip = "172.27.29.192"
+# login credentials 
 username = 'root'
 password = 'juniper123'
 
