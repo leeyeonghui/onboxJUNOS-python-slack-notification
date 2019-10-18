@@ -3,7 +3,7 @@ from jnpr.junos import Device
 import json
 
 # Slack webhook URL
-slack_url = "https://hooks.slack.com/services/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"
+slack_url = "https://hooks.slack.com/services/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"
 # Slack channel
 slack_channel = "#junos_commit"
 # local device IP 
